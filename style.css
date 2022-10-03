@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 5%;
+}
+
+.header img {
+  width: 300px;
+}
+
+.header h1 {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  font-size: 3.5rem;
+}
+
+.img-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+/* .arrow-right {
+  width: 0;
+  height: 0;
+  left: 0px;
+  top: -400px;
+  position: absolute;
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-left: 400px solid rgb(95, 138, 175);
+} */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  gap: 18px;
+}
+
+.about h2 {
+  font-size: 2.7rem;
+}
+
+.about p {
+  font-size: 1.7rem;
+}
+
+.about i {
+  font-size: 2.4rem;
+}
+
+.about .icons {
+  display: flex;
+  gap: 30px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.work h2 {
+  font-size: 2.7rem;
+}
+
+.work img {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: white;
+  padding: 5%;
+  background-color: rgb(95, 138, 175);
+}
+footer h3 {
+  font-size: 2.7rem;
+  align-self: center;
+}
+footer p {
+  font-size: 1.7rem;
+}
+footer .address p,
+footer .address2 p {
+  font-size: 1.1rem;
+}
+footer .icons {
+  align-self: center;
+  display: flex;
+  gap: 30px;
+  color: black;
+  font-size: 2rem;
+}
+footer img {
+  align-self: center;
+  max-width: 360px;
+}
